@@ -1,0 +1,118 @@
+.App {
+  background: 'images/background_bar.jpg';
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#lowerBlock{
+  position: relative;
+  background: green;
+  height: 500px;
+  width: 100%;
+  border-style: solid;
+}
+
+
+/* Nav */
+
+
+#avatar{
+  height: 128x;
+  width: 128px;
+  float: left;
+}
+
+.active{
+  background: lightgoldenrodyellow;
+}
+
+#navBar{
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+#navButtonContainer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  list-style: none;
+}
+
+.navButton{
+  float: right;
+  font-size: larger;
+  margin-left: 50px;
+}
+
+
+
+
+/*Browse Page */
+
+#theJoke{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#voteButtonContainer{
+  position: absolute;
+  bottom: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.voteButton{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+
+/* About Page */
+
+#aboutText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* Account Page */ 
+
+#loginBlock{
+  float: left;
+}
+
+#signUpBlock{
+  text-align: center;
+  float: right;
+}
+
+
+
+
+/* 404 Page */
+
+#section404{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+TODO: SCRAWLING
